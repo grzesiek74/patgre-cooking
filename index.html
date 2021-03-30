@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATGRE Cooking</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@200;400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d98467416f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed top-0 w-100 py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">PATGRE <span>Cooking</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="burger"><i class="fas fa-bars"></i></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#meals">Nasze dania</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Więcej
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="recipes.html">Przepisy</a></li>
+                            <li><a class="dropdown-item" href="#inspire">Inspiracje</a></li>
+                            <li><a class="dropdown-item" href="#contact">Kontakt</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header id="home" class="home">
+        <div class="slider">
+            <div class="shadow-bg"></div>
+            <img class="slide-img" src="img/header/header1-big.jpg" alt="slide">
+            <div class="txt">
+                <h1>PATGRE Cooking</h1>
+                <h2>Gotuj z nami!</h2>
+            </div>
+            <div class="left"><i class="fas fa-chevron-left"></i></div>
+            <div class="right"><i class="fas fa-chevron-right"></i></div>
+            <div class="dots">
+                <span id="one" class="active"></span>
+                <span id="two"></span>
+                <span id="three"></span>
+            </div>
+            <a href="#about" class="startBtn">Zaczynajmy</a>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="about" class="about">
+            <div class="text">
+                <h4 data-aos="fade-right">O naszej kuchni</h4>
+                <h3 data-aos="fade-right">Pysznie zdrowo i bezglutenowo...</h3>
+                <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error, voluptatem. Earum, enim neque
+                    eligendi, repellat ab rem non at voluptatibus adipisci, pariatur placeat facilis vel totam quae.
+                    Odit, tempore deserunt!</p>
+                <div data-aos="fade-up" class="more-btn"><a href="#what-we-do" class="more-info">Zobacz więcej</a>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="image"></div>
+        </section>
+        <section id="what-we-do" class="what-we-do">
+            <div class="text">
+                <h4>Co robimy?</h4>
+                <h3>Kuchnie Świata</h3>
+            </div>
+            <div class="what-we-do-slick">
+                <div class="img one">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Polska</h5>
+                    </div>
+                </div>
+                <div class="img two">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Włoska</h5>
+                    </div>
+                </div>
+                <div class="img three">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Chińska</h5>
+                    </div>
+                </div>
+                <div class="img four">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Meksykańska</h5>
+                    </div>
+                </div>
+                <div class="img five">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Indyjska</h5>
+                    </div>
+                </div>
+                <div class="img six">
+                    <div class="shadow-bg"></div>
+                    <div class="txt">
+                        <h5>Kuchnia Amerykańska</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="meals" class="meals">
+            <div class="shadow-bg"></div>
+            <div class="text">
+                <h4>Nasze dania</h4>
+                <h3>Potrawy, z których każdy wybierze coś dla siebie</h3>
+            </div>
+            <div class="wrapper">
+                <div class="menu-tabs">
+                    <button data-id='all' onclick="showTab('all')" class="menu-tab menu-tab-active">Wszystkie</button>
+                    <button data-id='dinner' onclick="showTab('dinner')" class="menu-tab">Dania główne</button>
+                    <button data-id='soups' onclick="showTab('soups')" class="menu-tab">Zupy</button>
+                    <button data-id='snacks' onclick="showTab('snacks')" class="menu-tab">Przekąski</button>
+                    <button data-id='desserts' onclick="showTab('desserts')" class="menu-tab">Desery</button>
+                </div>
+                <div class="menu-section" id="all">
+                    <div class="box-cards">
+                        <div class="box" data-aos="flip-right" data-aos-delay="100">
+                            <img src="img/meals/dinner/meal1.jpg" alt="spaghetti">
+                            <div class="box-text">
+                                <a href="recipes.html#spaghetti" class="box-title">Spaghetti Bolognese</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="200">
+                            <img src="img/meals/dinner/meal2.jpg" alt="chicken">
+                            <div class="box-text">
+                                <a href="recipes.html#chicken-curry" class="box-title">Kurczak Curry</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="300">
+                            <img src="img/meals/dinner/meal3.jpg" alt="lasagne">
+                            <div class="box-text">
+                                <a href="recipes.html#lasagne" class="box-title">Lasagne</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="400">
+                            <img src="img/meals/dinner/meal4.jpg" alt="rice&beef">
+                            <div class="box-text">
+                                <a href="recipes.html#beef-sec" class="box-title">Wołowina po Seczuańsku</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="500">
+                            <img src="img/meals/soups/soup1.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Ogórkowa</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="600">
+                            <img src="img/meals/soups/soup2.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Meksykańska</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="700">
+                            <img src="img/meals/soups/soup3.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Pieczarkowa</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="800">
+                            <img src="img/meals/snacks/snack1.jpg" alt="nuggets">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Nuggesty z Kurczaka</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="900">
+                            <img src="img/meals/snacks/snack2.jpg" alt="chicken wings">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Skrzydełka z Kurczaka</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="1000">
+                            <img src="img/meals/desserts/dessert1.jpg" alt="pancakes">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Naleśniki na Słodko</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="1100">
+                            <img src="img/meals/desserts/dessert2.jpg" alt="waffle">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Gofry</a>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="flip-right" data-aos-delay="1200">
+                            <img src="img/meals/desserts/dessert3.jpg" alt="pie">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Placki z Owocami</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-section" id="dinner" style="display: none;">
+                    <div class="box-cards">
+                        <div class="box">
+                            <img src="img/meals/dinner/meal1.jpg" alt="spaghetti">
+                            <div class="box-text">
+                                <a href="recipes.html#spaghetti" class="box-title">Spaghetti Bolognese</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/dinner/meal2.jpg" alt="chicken">
+                            <div class="box-text">
+                                <a href="recipes.html#chicken-curry" class="box-title">Kurczak Curry</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/dinner/meal3.jpg" alt="lasagne">
+                            <div class="box-text">
+                                <a href="recipes.html#lasagne" class="box-title">Lasagne</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/dinner/meal4.jpg" alt="rice&beef">
+                            <div class="box-text">
+                                <a href="recipes.html#beef-sec" class="box-title">Wołowina po Seczuańsku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-section" id="soups" style="display: none;">
+                    <div class="box-cards">
+                        <div class="box">
+                            <img src="img/meals/soups/soup1.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Ogórkowa</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/soups/soup2.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Meksykańska</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/soups/soup3.jpg" alt="soup">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Zupa Pieczarkowa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-section" id="snacks" style="display: none;">
+                    <div class="box-cards">
+                        <div class="box">
+                            <img src="img/meals/snacks/snack1.jpg" alt="nuggets">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Nuggesty z Kurczaka</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/snacks/snack2.jpg" alt="chicken wings">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Skrzydełka z Kurczaka</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-section" id="desserts" style="display: none;">
+                    <div class="box-cards">
+                        <div class="box">
+                            <img src="img/meals/desserts/dessert1.jpg" alt="pancakes">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Naleśniki na Słodko</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/desserts/dessert2.jpg" alt="waffle">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Gofry</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/meals/desserts/dessert3.jpg" alt="pie">
+                            <div class="box-text">
+                                <a href="#" class="box-title">Placki z Owocami</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <div class="text">
+                <h4>Galeria Zdjęć</h4>
+                <h3>Zdjęcia wybranych potraw</h3>
+            </div>
+            <div class="img-wrapper">
+                <div class="image" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/1.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="200">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/2.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="300">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/3.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="400">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/4.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="500">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/5.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="600">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/6.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="700">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/7.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="800">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/8.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="900">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/9.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="1000">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/10.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="1100">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/11.jpg" alt="food">
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-delay="1200">
+                    <h2>Potrawa</h2>
+                    <img src="img/gallery/12.jpg" alt="food">
+                </div>
+            </div>
+        </section>
+        <section id="inspire" class="inspire">
+            <div class="text">
+                <h4>Inspiracje</h4>
+                <h3>Skąd czerpiemy inspiracje do naszych potraw?</h3>
+                <p>Źródeł, z których korzystamy jest wiele. Począwszy od zwyczajnych stron czy książek z przepisami po
+                    wizyty w restauracjach. Zawsze staramy się urozmaicać nasze potrawy a także je modyfikować aby
+                    uniknąć monotonii i nudy :)</p>
+            </div>
+            <div class="image"></div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-shadow"></div>
+            <div class="wrapper">
+                <div class="text">
+                    <h4>Kontakt</h4>
+                    <h3>Skontatkuj się z nami</h3>
+                </div>
+                <div class="social">
+                    <p>W razie jakichkolwiek pytań, pisz do nas bądź szukaj nas w mediach społecznościowych :)</p>
+                    <div class="socials">
+                        <a><i class="fas fa-at"></i>patgre_cooking@gmail.com</a>
+                        <a><i class="fab fa-facebook-f"></i>PATGRE Cooking</a>
+                        <a><i class="fab fa-instagram"></i>patgre-cooking </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>PATGRE <span>Cooking</span> 2021 | &copy Wszelkie Prawa Zastrzeżone</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slicksettings.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aossettings.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
