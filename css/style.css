@@ -457,18 +457,13 @@ h3 {
     background-color: transparent;
     border-color: #ff8800;
     color: #ff8800;
-    -webkit-box-shadow: inset 0 0 0 0 #ff8800;
-            box-shadow: inset 0 0 0 0 #ff8800;
-    -webkit-transition: color 0.5s, border 0.5s, -webkit-box-shadow 0.5s;
-    transition: color 0.5s, border 0.5s, -webkit-box-shadow 0.5s;
-    transition: box-shadow 0.5s, color 0.5s, border 0.5s;
-    transition: box-shadow 0.5s, color 0.5s, border 0.5s, -webkit-box-shadow 0.5s;
+    -webkit-transition: color 0.5s, border 0.5s, background-color 0.5s;
+    transition: color 0.5s, border 0.5s, background-color 0.5s;
   }
   .about .text a:hover {
     color: white;
     border: 1px solid #ff8800;
-    -webkit-box-shadow: inset 400px 50px 0 0 #ff8800;
-            box-shadow: inset 400px 50px 0 0 #ff8800;
+    background-color: #ff8800;
   }
   .about .image {
     width: 500px;
@@ -1549,6 +1544,9 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+  .contact {
+    background-image: url("../img/contact/contact-big.jpg");
+  }
   .contact h4 {
     font-size: 20px;
   }
